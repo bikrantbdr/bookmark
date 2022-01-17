@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>👏Book-Review👏</title>
+    
+    
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- header section  -->
+    <div class="headSection">
+        <div class="logo">
+            Book-Keeper
+        </div>
+        <div class="datalog">
+            <div class="containerHead">Library Log</div>
+            <div class="dataField">
+                <div class="text">
+                    <div class="totalBook">
+                        Total Book: 
+                    </div>
+                    <div class="read">
+                        Read: 
+                    </div>
+                    <div class="unread">
+                        Unread: 
+                    </div>
+                </div>
+                <div class="values">
+                    <div class="totalBookCount">0</div> 
+                    <div class="readCount">0</div>
+                    <div class="unreadCount">0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- book cards section  -->
+    <div class="cardContainer">
+
+    </div>
+
+    <div class="add">
+        <img src="img/plus.png" alt="add">
+    </div>
+
+    <div class="overlay">
+        <div class="form">
+            <div class="formHead">Add New Book </div>
+            <div class="title">
+                Book Title* 
+                <br>
+                <input type="text" class="input" name="title" id="formTitle" placeholder="Title">
+            </div>
+
+            <div class="author">
+                Book Author* 
+                <br>
+                <input type="text" class="input" name="author" id="formAuthor" placeholder="Author">
+            </div>
+            
+            <div class="genre">
+                Genre* 
+                <br>
+                <input type="text" class="input" name="genre" id="formGenre" placeholder="Genre">
+            </div>
+
+            <div class="pages">
+                Number Of Pages* 
+                <br>
+                <input type="text" class="input" name="pages" id="formPage" placeholder="Pages">
+            </div>
+            
+            <div class="status">
+                  
+                <label for="status">Read?:</label>
+                <select name="status" id="status">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </select>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Add Book">
+            </div>
+
+            <div class="cancel">
+                <img src="img/cross.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script .js"></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>
