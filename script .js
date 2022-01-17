@@ -9,9 +9,7 @@ let myLibrary=[];
 let booksLocal= JSON.parse(localStorage.getItem("books") || "[]");
 if(booksLocal.length===0){
     const bookobj1 = new Book ("My love story", " Bikrant Bidari", "Fiction",42,1);
-    const bookobj2 = new Book ("microprocessor", "Shyam Dahal", "science",321,0);
-    const bookobj3 = new Book ("MP", "Shyam Dahal", "science",321,0);
-    myLibrary=[bookobj1,bookobj2,bookobj3];
+    myLibrary=[bookobj1];
     localStorage.setItem("books", JSON.stringify(myLibrary));
 }
 else{
